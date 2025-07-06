@@ -1,3 +1,4 @@
 *.png # ignore all png files
 !final.png # except final.png
-pictures/
+pictures/* # ignore everything in pictures folder
+!pictures/pie/ # do not ignore pictures/data/ contents
